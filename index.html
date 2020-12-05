@@ -1,4 +1,19 @@
 <!DOCTYPE html>
+<head>
+<script charset="utf-8" type="text/javascript">
+        function pog()
+        {
+            var password = document.getElementById("p").value;
+            if(password.equals("buh")){
+                document.getElementById("output").innerHTML = "pog";
+            }
+            else{
+                alert("Password incorrect");
+            }
+        }
+    </script>
+
+</head>
 <html>
 <body>
     
@@ -6,11 +21,11 @@
 
 <div>
     <label for="pass">Password</label>
-    <input type="password" id="pass" name="password" required>
+    <input type="password" id="pass" name="p" required>
 </div>
 
-<input type="submit" value="Enter">
+<input type="submit" value="Give me files" onclick = pog()>
     
-<span id="output">fail</span>
+<h2 id="output"></span>
 </body>
 </html>

@@ -1,4 +1,4 @@
-var password = document.getElementById("password");
+var password = document.getElementById("pass");
 var output = document.getElementById("output");
  console.log("work")
 

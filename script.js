@@ -11,6 +11,7 @@ password.oninput = function(event) {
 
 document.getElementById("submit").addEventListener("click", pog);
 function pog(){    
+    alert("hi");
         if(document.getElementById("pass").value == ("buh")){
         document.getElementById("output").innerHTML = "Success!";
             showFiles();

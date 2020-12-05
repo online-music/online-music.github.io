@@ -1,6 +1,6 @@
 var password = document.getElementById("password");
 var output = document.getElementById("output");
-var 
+ 
 
 password.oninput = function(event) {
     console.log(password.value)
@@ -20,6 +20,6 @@ function pog(){
         }
     }
 function showFiles(){
-    
+    document.getElementById("hideme").style.display = "";
     
 }
